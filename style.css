@@ -1,9 +1,16 @@
+html {
+  font-size:100%;
+  margin:0 auto;
+  max-width: 1200px;
+}
+
 .top {
-  position:static;
+  margin-top:0px;
   background-color:black;
   color:white;
   width:100%;
-  margin:0 0 10px 0 ;
+  
+  justify-content:left;
 }
 .up {
   color:red;
@@ -65,16 +72,25 @@ ul li img {
 }
 
 main {
-  width:74%;
+  width:72%;
+  margin-right:35px;
 }
 
 aside {
-  width:22%;
+  width:28%;
 }
 
 
 h1 {
   margin-left:10px;
+}
+
+.firstPhoto {
+  width:100%;
+}
+
+.main p {
+  padding:20px;
 }
 
 
