@@ -1,0 +1,121 @@
+.top {
+  position:static;
+  background-color:black;
+  color:white;
+  width:100%;
+  margin:0 0 10px 0 ;
+}
+.up {
+  color:red;
+}
+.down{
+  color:green;
+}
+.top span{
+  margin-right:35px;
+}
+
+
+
+.homeIcon {
+  width:20%;
+  display:block;
+  margin:auto;
+  
+}
+
+.hint {
+  position:relative;
+  top:0;
+  right:0;
+}
+
+
+
+
+li img{
+  width:35%;
+}
+
+li {
+  display:inline-block;
+  
+}
+
+ul {
+  list-style:none;
+  display:flex;
+  justify-content:space-between;
+  margin-right:100px;
+  align-items:center;
+}
+
+ul li {
+  margin: 0 10px;
+}
+
+ul li img {
+  margin:0;
+  width:80px;
+  height:20px;
+}
+
+.mainAside {
+  display:flex;
+}
+
+main {
+  width:74%;
+}
+
+aside {
+  width:22%;
+}
+
+
+h1 {
+  margin-left:10px;
+}
+
+
+
+
+a {
+  color:red;
+  text-decoration:none;
+}
+
+p {
+  padding:10px;
+  font-size:20px;
+}
+
+h3 {
+  color:red;
+  padding:10px;
+}
+
+span {
+  color:gray;
+}
+
+.mainAd {
+  display:flex;
+}
+
+
+
+.asideTitle {
+  color:red;
+  font-size:20px;
+  margin-top:2px;
+}
+
+.asideNews {
+  border-bottom:silver 1px solid;
+  margin-bottom:20px;
+}
+
+.asideNews span {
+  color:red;
+}
